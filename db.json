@@ -1,0 +1,38 @@
+{
+  "Clientes": [
+    {
+      "id": "1",
+      "nombre": "cli1",
+      "telefono": "123",
+      "correo": "cli1@correo.com",
+      "autor": "admin"
+    },
+    {
+      "id": "2",
+      "nombre": "cli2 editado",
+      "telefono": "123",
+      "correo": "cli2@correo.com",
+      "autor": "usuario"
+    }
+  ],
+  "Usuarios": [
+    {
+      "id": "1",
+      "nombre": "admin",
+      "contrasena": "admin123",
+      "perfil": "Administrador"
+    },
+    {
+      "id": "2",
+      "nombre": "usuario",
+      "contrasena": "usuario123",
+      "perfil": "usuario"
+    },
+    {
+      "id": "3",
+      "nombre": "usuario2",
+      "contrasena": "usuario123",
+      "perfil": "Usuario"
+    }
+  ]
+}

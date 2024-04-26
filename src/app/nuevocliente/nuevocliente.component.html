@@ -1,0 +1,38 @@
+<div class="card border-info mt-5 p-2 mx-auto" style="width: 40rem;">
+    <div class="card-header">
+        <h5 class="card-title">Nuevo Cliente</h5>
+    <p class="fw-lighter">Diligencie la informacion de nuevo cliente.</p>
+    </div>
+    <div class="card-body">
+        <div class="row mb-3">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nombre" placeholder="nombre" [(ngModel)]="nombre">
+                    <label for="nombre">Nombre Completo</label>
+                </div>                  
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="telefono" placeholder="telefono" [(ngModel)]="telefono">
+                    <label for="telefono">Telefono</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="correo" placeholder="correo" [(ngModel)]="correo">
+                    <label for="correo">Correo</label>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-outline-secondary btn-sm me-md-2" type="button" (click)="AgregarCliente()">Agregar Cliente</button>
+            <button class="btn btn-outline-danger btn-sm" type="button" [routerLink]="['/navegacion']" routerLinkActive="router-link-active" >Salir</button>
+        </div>
+    </div>
+    <div class="card-footer">
+        <p class="fw-lighter"e>Clientes-App V.1.0</p>
+    </div>
+
+</div>
